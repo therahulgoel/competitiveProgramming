@@ -62,3 +62,55 @@
        *
  
  */
+
+
+/*6. Print the pattern For input i.e. n :5
+ 
+     *
+    * *
+   * * *
+  * * * * 
+ * * * * *
+ 
+ */
+
+
+/*7. Print the pattern For input i.e. n :5
+ 
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ * * * * 
+ * * *
+ * * 
+ *
+ 
+ 
+ */
+
+
+/*8. Print the pattern For input i.e. n :5
+ 
+         *
+       * *
+     * * *
+   * * * *
+ * * * * *
+   * * * *
+     * * *
+       * *
+         *
+ 
+ */
+
+
+
+
+
+
+
+
+
+
