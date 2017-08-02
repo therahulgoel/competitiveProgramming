@@ -12,3 +12,53 @@
 #include <stdio.h>
 
 #endif /* patternPrint_hpp */
+
+
+/*1. Print the pattern For input i.e. n :4
+ 
+ * * * * 
+ * * * *
+ * * * *
+ * * * *
+
+*/
+
+
+/*2. Print the pattern For input i.e. n :4
+ 
+ *
+ * *
+ * * *
+ * * * *
+ 
+ */
+
+
+/*3. Print the pattern For input i.e. n :4
+ 
+       *
+     * *
+   * * *
+ * * * *
+ 
+ */
+
+
+/*4. Print the pattern For input i.e. n :4
+ 
+ * * * *
+ * * *
+ * *
+ *
+ 
+ */
+
+
+/*5. Print the pattern For input i.e. n :4
+ 
+ * * * *
+   * * *
+     * *
+       *
+ 
+ */
