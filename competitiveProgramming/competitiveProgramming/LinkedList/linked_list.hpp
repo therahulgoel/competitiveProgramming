@@ -19,6 +19,18 @@ struct list_node* linkedlist_testcreate();
 void linkedlist_print(struct list_node *base);
 
 //To count the number of nodes in given single linked list - O(n) Time
-void linkedlist_countnodes(struct list_node *base);
+int linkedlist_countnodes(struct list_node *base);
+
+//To insert a node on given position pos
+int linkedlist_insert(struct list_node *base,int pos,int data);
+
+//To delete a node from given position pos
+void linkedlist_delete(struct list_node *base, int pos);
+
+//To check if given linked list has cycle or not
+int linkedlist_checkIfCycle(struct list_node *base);
+
+//Reverse of given linked list
+struct list_node*  linkedlist_reverse(struct list_node *base);
 
 #endif /* linked_list_hpp */

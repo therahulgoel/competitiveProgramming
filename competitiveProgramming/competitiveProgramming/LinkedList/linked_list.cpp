@@ -39,7 +39,7 @@ struct list_node* linkedlist_testcreate(){
     return base;
 }
 
-void linkedlist_countnodes(struct list_node *base){
+int linkedlist_countnodes(struct list_node *base){
     int count = 0;
     while (base != NULL) {
         count++;
@@ -47,6 +47,73 @@ void linkedlist_countnodes(struct list_node *base){
     }
     printf("Number of Nodes are : %d",count);
     printf("\n");
+    return count;
+}
+
+int linkedlist_insert(struct list_node *base,int pos,int data){
+    
+    //Get the count of Nodes
+    int nodesCount = linkedlist_countnodes(base);
+    
+    int index = 0;
+    int inserted = -1;
+    
+    //store address of
+    struct list_node *ptrprev = base; // Just one element before
+    struct list_node *ptrnext = base->address; // Just one element after
+    
+    if (pos <= nodesCount || pos == (nodesCount + 1)){ //Check if pos is inside or at the end of linked list
+        
+        while (index < pos) {
+            if (index == pos - 1 ){
+                //new node creation
+                struct list_node *nodeToInsert = newNode_(data);
+                ptrprev->address = nodeToInsert;
+                nodeToInsert->address = ptrnext;
+            }
+            
+            //In case its end of the list
+            if (ptrnext != NULL || ptrnext != NULL){
+                ptrprev = ptrprev->address;
+                ptrnext = ptrnext->address;
+            }
+            index = index + 1;
+        }
+    }else{
+        //Can not insert pos is outside linkedlist
+        inserted = -1;
+        printf("\nOops ! pos is outside linkedlist  \n");
+    }
+    
+    return inserted;
+}
+
+void linkedlist_delete(struct list_node *base, int pos){
+    
+}
+
+int linkedlist_checkIfCycle(struct list_node *base){
+    int exists = -1;
+    struct list_node *ptrprev = base;
+    struct list_node *ptrnext = base->address;
+    
+    while (ptrnext != NULL) {
+        if (ptrprev->address == ptrnext->address){
+            exists = 1;
+            break;
+        }
+        if (ptrprev != NULL || ptrnext != NULL){
+            ptrprev = ptrprev->address; //Increment by 1 location
+            ptrnext = ptrnext->address->address; //Increment by 2 locations
+        }
+    }
+    
+    return exists;
+}
+
+struct list_node*  linkedlist_reverse(struct list_node *base){
+    struct list_node *node = base;
+    return node;
 }
 
 
