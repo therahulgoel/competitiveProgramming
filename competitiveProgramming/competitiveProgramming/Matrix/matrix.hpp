@@ -13,8 +13,10 @@
 
 
 //1. Read and print m*n matrix where m = number of rows, n = number of columns
+void matrix_print();
 
 //2. Multiplication and sum of two matrix A and B
+
 
 //3. Print Diagonals of given input matrix of size m*n
 
