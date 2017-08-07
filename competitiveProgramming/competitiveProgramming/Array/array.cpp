@@ -17,6 +17,7 @@ void array_rotateCyclicallyby1(int arr[],int size){
     int last = arr[size -1];
     int f = arr[0];
     
+    //Shift all the elements one position right
     int i = 1;
     while (i<size) {
         f = arr[i];
@@ -24,8 +25,10 @@ void array_rotateCyclicallyby1(int arr[],int size){
         i++;
     }
     
+    //Put the last element in first position
     arr[0] = last;
     
+    //Print the modified array
     array_printelements(arr, size);
 }
 
