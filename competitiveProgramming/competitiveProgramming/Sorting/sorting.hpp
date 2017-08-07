@@ -32,7 +32,10 @@ void sort_quick();
 //6. Merge Sort
 void sort_merge();
 
-//7. Radix Sort
+//7. Counting Sort
+void sort_counting();
+
+//8. Radix Sort
 void sort_radix();
 
 
