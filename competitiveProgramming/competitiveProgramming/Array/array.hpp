@@ -26,7 +26,7 @@ void array_printelements(int arr[],int size);
 //5.  Equilibrium point : In given array arr find position on which sum of all the left elements are equal to all the right elements if exists, if not return -1 Time - O(n)
 int array_equilibriumpoint(int arr[], int n);
 
-//6. Missing number in given array - If array contain elements from 1 t0 n-1 expect one number missing Time - O(n)
+//6. Missing number in given array - consider array contain elements from 1 t0 n-1 except one number missing Time - O(n)
 int array_missingnumber(int arr[], int n);
 
 //7. Kadane's algorithm : For given array arr (with +ve and -ve values) find contiguous sub-array with max sum.
@@ -44,10 +44,14 @@ int array_missingnumber(int arr[], int n);
 //11. Leaders in Array : an element is leader if it is greater than all elements to its right side. Rightmost element in array is always leader. Time O(n)
 void array_leaderis(int arr[], int n);
 
-//12. kth smallest element in given array of size n where k<n and all elements are distinct.
+//12. Find kth smallest element in given array of size n where k<n and all elements are distinct.
 void array_kthSmallestElement(int arr[],int n);
 
-//13. Find element that appears once in array whereas every other element occur thrice.
-int array_appearOnce(int arr[],int n);
+//13. Find element that appears once in array, in which every other element appear thrice. Time - O(n)
+int array_appearOnceOtherOccurThrice(int arr[],int n);
+
+//14. For an array in which every other element appear twice, find element that appears once. - Time O(n)
+int array_appearOnceOtherOccurTwice(int arr[],int n);
+
 
 #endif /* array_hpp */
