@@ -45,3 +45,21 @@ void array_printelements(int arr[], int size){
     }
     printf("\n");
 }
+
+int array_missingnumber(int arr[], int n){
+    
+    //Sum of numbers from 1 to n
+    int total = n*(n - 1)/2;
+    
+    //sum of all the array elements
+    int sum = 0;
+    int i = 0;
+    
+    while (i<sum) {
+        sum = sum + arr[i];
+        i++;
+    }
+    
+    int missingNumber = total - sum ;
+    return missingNumber;
+}
