@@ -22,5 +22,6 @@
 #include "graph.hpp"
 #include "matrix.hpp"
 #include "patternPrint.hpp"
+#include "mathematical.hpp"
 
 #endif /* files_included_h */

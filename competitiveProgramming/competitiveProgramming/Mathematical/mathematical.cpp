@@ -28,8 +28,17 @@ void mathematical_fibonacciseries(int upto){
     
 }
 
-void mathematical_factorial(int number){
+int mathematical_factorial(int number){
+    int fact = 1;
+    int i = 0 ; //Index
     
+    while (i<number) {
+        fact = fact * (number - i);
+        i = i + 1;
+    }
+    
+    
+    return fact;
 }
 
 void mathematical_sumofnnumbers(int number){

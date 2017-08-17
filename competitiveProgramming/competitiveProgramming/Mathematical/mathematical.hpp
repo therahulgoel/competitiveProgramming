@@ -27,7 +27,7 @@ void mathematical_primeornot(int number);
 void mathematical_fibonacciseries(int upto);
 
 //6. Factorial
-void mathematical_factorial(int number);
+int mathematical_factorial(int number);
 
 //7. Sum of n Natural Numbers
 void mathematical_sumofnnumbers(int number);
