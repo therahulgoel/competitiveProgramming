@@ -76,6 +76,7 @@ void pattern_5(int n);
  * * * * *
  
  */
+void pattern_6(int n);
 
 
 /*7. Print the pattern For input i.e. n :5
@@ -92,7 +93,7 @@ void pattern_5(int n);
  
  
  */
-
+void pattern_7(int n);
 
 /*8. Print the pattern For input i.e. n :5
  

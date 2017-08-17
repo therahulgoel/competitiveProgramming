@@ -66,3 +66,12 @@ void pattern_5(int n){
     }
 }
 
+void pattern_6(int n){
+    
+
+}
+
+void pattern_7(int n){
+    pattern_2(n);
+    pattern_4(n-1);
+}
