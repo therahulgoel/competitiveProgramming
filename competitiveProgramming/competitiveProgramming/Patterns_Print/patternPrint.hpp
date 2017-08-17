@@ -22,6 +22,7 @@
  * * * *
 
 */
+void pattern_1(int n);
 
 
 /*2. Print the pattern For input i.e. n :4
