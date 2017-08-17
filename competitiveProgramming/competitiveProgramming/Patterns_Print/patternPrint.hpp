@@ -33,6 +33,7 @@ void pattern_1(int n);
  * * * *
  
  */
+void pattern_2(int n);
 
 
 /*3. Print the pattern For input i.e. n :4

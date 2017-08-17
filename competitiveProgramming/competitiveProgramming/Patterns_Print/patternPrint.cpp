@@ -18,4 +18,11 @@ void pattern_1(int n){
 }
 
 
-
+void pattern_2(int n){
+    for (int i =0; i<n; i++) {
+        for (int j=0; j< i + 1; j++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+}
