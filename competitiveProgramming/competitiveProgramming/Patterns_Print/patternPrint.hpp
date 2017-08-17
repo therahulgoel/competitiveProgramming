@@ -55,7 +55,7 @@ void pattern_3(int n);
  *
  
  */
-
+void pattern_4(int n);
 
 /*5. Print the pattern For input i.e. n :4
  

@@ -39,3 +39,16 @@ void pattern_3(int n){
         printf("\n");
     }
 }
+
+void pattern_4(int n){
+    for (int i =0; i<n; i++) {
+        for (int j=0; j<n; j++) {
+            if (j < n-i){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
