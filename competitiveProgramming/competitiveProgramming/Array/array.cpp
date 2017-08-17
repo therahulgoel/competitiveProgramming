@@ -63,3 +63,19 @@ int array_missingnumber(int arr[], int n){
     int missingNumber = total - sum ;
     return missingNumber;
 }
+
+void array_leaderis(int arr[], int n){
+
+    int max = 0;
+    int i =0 ; //Index
+    
+    //Check from Right side of array and put max element in max if some element is greater than max then its the leader
+    while (i<n) {
+        if (arr[n-1 -i] > max){
+            max = arr[n -1-i];
+            printf("%d ",max);
+        }
+        i++;
+    }
+    
+}
