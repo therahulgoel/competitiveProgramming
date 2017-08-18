@@ -108,6 +108,7 @@ void pattern_7(int n);
          *
  
  */
+void pattern_8(int n);
 
 
 

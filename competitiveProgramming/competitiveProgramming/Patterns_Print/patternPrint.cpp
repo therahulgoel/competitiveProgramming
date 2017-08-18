@@ -75,3 +75,18 @@ void pattern_7(int n){
     pattern_2(n);
     pattern_4(n-1);
 }
+
+
+void pattern_8(int n){
+    pattern_3(n);
+    for (int i =0; i<n; i++) {
+        for (int j=0; j<n; j++) {
+            if (j< i +1){
+                printf(" ");
+            }else{
+                printf("*");
+            }
+        }
+        printf("\n");
+    }
+}
