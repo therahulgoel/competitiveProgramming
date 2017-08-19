@@ -271,8 +271,8 @@
 		1382AEB31F28F14300C2EC88 /* String */ = {
 			isa = PBXGroup;
 			children = (
-				1382AEB41F28F14300C2EC88 /* string.cpp */,
 				1382AEB51F28F14300C2EC88 /* string.hpp */,
+				1382AEB41F28F14300C2EC88 /* string.cpp */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -478,6 +478,7 @@
 				1382AE7B1F28EC3A00C2EC88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
