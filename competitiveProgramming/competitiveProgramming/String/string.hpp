@@ -44,7 +44,7 @@ void string_lognestCommonSubsequence(char *str);
 //11. Longest common Substring in given string
 void string_longestCommonString(char *str);
 
-//12. Remove all the duplicates from given string With order of characetrs same as original order.
+//12. Remove all the duplicates from given string With order of characters same as original order.
 void string_removeAllDuplicatesFrom(char *str);
 
 

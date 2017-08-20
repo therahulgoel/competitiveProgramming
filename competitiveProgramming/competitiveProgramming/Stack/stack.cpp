@@ -7,6 +7,7 @@
 //
 
 #include "stack.hpp"
+#include <stack>
 
 //to create stack with size as 100 elements
 #define size 100
