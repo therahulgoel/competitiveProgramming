@@ -12,10 +12,10 @@
 #include <stdio.h>
 
 //1. Number of characters in given string
-int string_numberOfchars(char *str);
+int string_numberOfchars(const char *str);
 
 //2. Reverse of given string
-void string_reverseOfString(char *str);
+void string_reverseOfString(const char *str);
 
 //3. Reverse of given sentence
 void string_reverseOfSentence(char *str);

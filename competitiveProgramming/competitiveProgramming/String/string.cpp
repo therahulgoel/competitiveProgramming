@@ -9,7 +9,7 @@
 #include "string.hpp"
 
 
-int string_numberOfchars(char *str){
+int string_numberOfchars(const char *str){
     int count =0;
     while (*str != '\0') {
         count = count + 1;
@@ -21,14 +21,12 @@ int string_numberOfchars(char *str){
 void string_reverseOfSentence(char *str){
 }
 
-void string_reverseOfString(char *str){
+void string_reverseOfString(const char *str){
     int count = string_numberOfchars(str);
-    int index = 0;
-    while (index < count) {
-    
-        
-        str = str + 1;
-        index = index + 1;
+
+    while (count >= 0) {
+        printf("%c",str[count]);
+        count = count - 1;
     }
 }
 
