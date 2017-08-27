@@ -11,10 +11,10 @@
 
 #include <stdio.h>
 
-//1. Number of characters in given string
+//1. Number of characters in given string Time - O(n)
 int string_numberOfchars(const char *str);
 
-//2. Reverse of given string
+//2. Reverse of given string Time - O(n)
 void string_reverseOfString(const char *str);
 
 //3. Reverse of given sentence

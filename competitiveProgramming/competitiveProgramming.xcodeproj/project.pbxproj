@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131E10811F52F63D009C302F /* DynamicProgramming.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 131E107F1F52F63D009C302F /* DynamicProgramming.cpp */; };
 		1382AE761F28EC3A00C2EC88 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE751F28EC3A00C2EC88 /* main.cpp */; };
 		1382AE911F28EEB700C2EC88 /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE7D1F28EEB700C2EC88 /* array.cpp */; };
 		1382AE921F28EEB700C2EC88 /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE801F28EEB700C2EC88 /* basic.cpp */; };
@@ -40,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		131E107F1F52F63D009C302F /* DynamicProgramming.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicProgramming.cpp; sourceTree = "<group>"; };
+		131E10801F52F63D009C302F /* DynamicProgramming.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DynamicProgramming.hpp; sourceTree = "<group>"; };
 		1382AE721F28EC3A00C2EC88 /* competitiveProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = competitiveProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		1382AE751F28EC3A00C2EC88 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1382AE7D1F28EEB700C2EC88 /* array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = array.cpp; sourceTree = "<group>"; };
@@ -90,6 +93,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131E107E1F52F631009C302F /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				131E107F1F52F63D009C302F /* DynamicProgramming.cpp */,
+				131E10801F52F63D009C302F /* DynamicProgramming.hpp */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
 		1382AE691F28EC3A00C2EC88 = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +121,7 @@
 		1382AE741F28EC3A00C2EC88 /* competitiveProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				131E107E1F52F631009C302F /* DynamicProgramming */,
 				1382AE981F28F14300C2EC88 /* Heap */,
 				1382AE9B1F28F14300C2EC88 /* Mathematical */,
 				1382AE9E1F28F14300C2EC88 /* Matrix */,
@@ -351,6 +364,7 @@
 				1382AE961F28EEB700C2EC88 /* graph.cpp in Sources */,
 				1382AEBA1F28F14300C2EC88 /* queue.cpp in Sources */,
 				1382AEBB1F28F14300C2EC88 /* recursion.cpp in Sources */,
+				131E10811F52F63D009C302F /* DynamicProgramming.cpp in Sources */,
 				1382AEB71F28F14300C2EC88 /* mathematical.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
