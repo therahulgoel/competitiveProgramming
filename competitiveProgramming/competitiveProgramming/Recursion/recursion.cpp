@@ -7,3 +7,23 @@
 //
 
 #include "recursion.hpp"
+
+void recursion_SumOfNumbersFromList(){
+
+}
+
+
+void recursion_SumOfNNaturalNumbers(){
+
+}
+
+
+int recursion_numberOfChars(const char *str,int index){
+    
+    if (str[index] == '\0'){
+        return 0;
+    }
+    else{
+        return 1 + recursion_numberOfChars(str,++index);
+    }
+}
