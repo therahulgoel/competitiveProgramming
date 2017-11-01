@@ -20,8 +20,12 @@ int recursion_SumOfNumbersFromList(int *arr, int size){
 }
 
 
-void recursion_SumOfNNaturalNumbers(){
-
+int recursion_SumOfNNaturalNumbers(int upto){
+    if (upto <= 0){
+        return 0;
+    }else{
+        return upto + recursion_SumOfNNaturalNumbers(upto - 1);
+    }
 }
 
 

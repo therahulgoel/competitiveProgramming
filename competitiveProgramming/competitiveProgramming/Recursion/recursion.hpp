@@ -17,7 +17,7 @@
 int recursion_SumOfNumbersFromList(int *arr, int size);
 
 //2. Sum of first n natural numbers (1 to N ) using recursion
-void recursion_SumOfNNaturalNumbers();
+int recursion_SumOfNNaturalNumbers(int upto);
 
 //3. Count Number of characters in given string using recursion
 int recursion_numberOfChars( char *str);
