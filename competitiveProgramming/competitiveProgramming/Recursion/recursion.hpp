@@ -20,7 +20,20 @@ int recursion_SumOfNumbersFromList(int *arr, int size);
 void recursion_SumOfNNaturalNumbers();
 
 //3. Count Number of characters in given string using recursion
-int recursion_numberOfChars( char *str, int index);
+int recursion_numberOfChars( char *str);
 
 //4. Reverse of given string using recusion
 void recursion_reverseOfString(char *str, int index);
+
+//5. Power p of given number n Pow(n,p)
+int recursion_power(int number, int power);
+
+//6. Factorial of given number n
+int recursion_factorial(int number);
+
+//7. Nth Fibonacci Term from fibonacci series
+int recursion_fibonacciNthTerm(int number);
+
+//8. Return all the words from a given sentence
+int* recursion_getAllWordsFromSentence(char *str);
+

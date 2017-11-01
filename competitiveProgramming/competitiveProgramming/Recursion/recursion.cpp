@@ -8,6 +8,9 @@
 
 #include "recursion.hpp"
 
+//As Its not suggestable to return local variable outside the function So use this array in case you need to return Array or list of elements
+static int *arrayTmp;
+
 int recursion_SumOfNumbersFromList(int *arr, int size){
     if (size <= 0){
         return arr[size];
@@ -22,13 +25,13 @@ void recursion_SumOfNNaturalNumbers(){
 }
 
 
-int recursion_numberOfChars( char *str,int index){
+int recursion_numberOfChars( char *str){
     
-    if (str[index] == '\0'){
+    if (*str == '\0'){
         return 0;
     }
     else{
-        return  1 + recursion_numberOfChars(str,++index);
+        return  1 + recursion_numberOfChars(str + 1);
     }
 }
 
@@ -39,4 +42,12 @@ void recursion_reverseOfString(char *str, int index){
         recursion_reverseOfString(str, ++index);
         printf("%c",str[index]);
     }
+}
+
+
+int* recursion_getAllWordsFromSentence(char *str){
+    
+    
+    
+    return arrayTmp;
 }
