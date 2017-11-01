@@ -44,10 +44,28 @@ void recursion_reverseOfString(char *str, int index){
     }
 }
 
+int recursion_power(int number, int power){
+    if (power <= 0){
+        return 1;
+    }else{
+        return number*recursion_power(number, power-1);
+    }
+}
 
-int* recursion_getAllWordsFromSentence(char *str){
+
+int* recursion_getAllWordsFromSentence(char *str,char *ptr){
     
+    //In case sentence ends
+    if (*str == '\0'){
+        return arrayTmp;
+    }else{
     
+        //In case of Sapce
+        if (*str == ' '){
+            
+        }
+        return recursion_getAllWordsFromSentence(str + 1,ptr);
+    }
     
     return arrayTmp;
 }
