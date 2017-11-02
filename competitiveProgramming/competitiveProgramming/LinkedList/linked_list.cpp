@@ -130,5 +130,25 @@ bool linkedlist_searchElement(struct list_node *base, int number){
     }
 }
 
+int linkedlist_getNthNode(struct list_node *base,int n){
+    int result = 0 ; //In case position is out of linked list return zero
+    
+    //To get length of given linked list
+    int length = linkedlist_countnodes(base);
+    int index = 1; //Iterator
+    
+    //In case N is more than length of linked list
+    if (n> length) {
+        return result;
+    }
+    
+    //Iterate till n-1 th term
+    while (index < n) {
+        base = base->address;
+        index++;
+    }
+    return base->data;
+}
+
 
 
