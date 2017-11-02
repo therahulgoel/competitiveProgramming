@@ -37,3 +37,6 @@ int recursion_fibonacciNthTerm(int number);
 //8. Return all the words from a given sentence
 void recursion_getAllWordsFromSentence(char *str,char *ptr);
 
+//9. Print all permutations of given string
+void recursion_printPermutationsOf(char *str);
+
