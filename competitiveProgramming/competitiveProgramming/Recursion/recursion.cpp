@@ -49,7 +49,7 @@ void recursion_reverseOfString(char *str, int index){
 }
 
 int recursion_power(int number, int power){
-    if (power <= 0){
+    if (power <= 0){ //In Case pow(number,0) = 1
         return 1;
     }else{
         return number*recursion_power(number, power-1);
@@ -64,12 +64,17 @@ int* recursion_getAllWordsFromSentence(char *str,char *ptr){
         return arrayTmp;
     }else{
     
-        //In case of Sapce
+        //In case of Space
         if (*str == ' '){
             
         }
-        return recursion_getAllWordsFromSentence(str + 1,ptr);
+        return recursion_getAllWordsFromSentence(str ,ptr+1);
     }
     
     return arrayTmp;
 }
+
+void reverseWordAndAddItToArray(char *str,int length){
+    
+}
+
