@@ -11,6 +11,8 @@
 //As Its not suggestable to return local variable outside the function So use this array in case you need to return Array or list of elements
 static int *arrayTmp;
 
+void getWordAndAddItToArray(char *str,int length);
+
 int recursion_SumOfNumbersFromList(int *arr, int size){
     if (size <= 0){
         return arr[size];
@@ -57,24 +59,39 @@ int recursion_power(int number, int power){
 }
 
 
-int* recursion_getAllWordsFromSentence(char *str,char *ptr){
+void recursion_getAllWordsFromSentence(char *str,char *ptr){
     
     //In case sentence ends
-    if (*str == '\0'){
-        return arrayTmp;
+    if (*ptr == '\0'){
+        //To calculate length of word
+        int length = int(ptr - str);
+        getWordAndAddItToArray(str,length);
+        printf("\n");
+        str = ptr+1;
+        return ;
     }else{
     
         //In case of Space
-        if (*str == ' '){
+        if (*ptr == ' '){
             
+            //To calculate length of word
+            int length = int(ptr - str);
+            getWordAndAddItToArray(str,length);
+            printf("\n");
+            str = ptr+1;
         }
         return recursion_getAllWordsFromSentence(str ,ptr+1);
     }
-    
-    return arrayTmp;
 }
 
-void reverseWordAndAddItToArray(char *str,int length){
+void getWordAndAddItToArray(char *str,int length){
+        int index = 0;
+        while (index < length) {
+        printf("%c",*str);
+        str = str + 1;
+        index++;
+    }
     
 }
+
 

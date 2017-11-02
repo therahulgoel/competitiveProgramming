@@ -35,5 +35,5 @@ int recursion_factorial(int number);
 int recursion_fibonacciNthTerm(int number);
 
 //8. Return all the words from a given sentence
-int* recursion_getAllWordsFromSentence(char *str,char *ptr);
+void recursion_getAllWordsFromSentence(char *str,char *ptr);
 
