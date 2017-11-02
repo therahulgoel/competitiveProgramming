@@ -116,6 +116,19 @@ struct list_node*  linkedlist_reverse(struct list_node *base){
     return node;
 }
 
+bool linkedlist_searchElement(struct list_node *base, int number){
+    bool result;
+    
+    if (base == NULL){
+        return result;
+    }else{
+        if (base != NULL && base->data == number){
+            result = true;
+            return result;
+        }
+        return linkedlist_searchElement(base->address , number);
+    }
+}
 
 
 

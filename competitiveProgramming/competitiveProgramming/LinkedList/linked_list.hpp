@@ -33,7 +33,7 @@ int linkedlist_checkIfCycle(struct list_node *base);
 //7. Reverse of given linked list
 struct list_node*  linkedlist_reverse(struct list_node *base);
 
-//8. Search given element in Linked List
+//8. Search given element in Linked List if exists return true otherwise no
 bool linkedlist_searchElement(struct list_node *base, int number);
 
 //9. Swap two nodes in linked list, without swapping data but with address as Swapping data of nodes may be expensive in many situations when data contains many fields
