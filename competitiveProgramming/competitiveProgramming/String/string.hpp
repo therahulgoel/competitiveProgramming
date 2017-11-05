@@ -10,6 +10,7 @@
 #define string_hpp
 
 #include <stdio.h>
+#include <string>
 
 //1. Number of characters in given string Time - O(n)
 int string_numberOfchars(const char *str);

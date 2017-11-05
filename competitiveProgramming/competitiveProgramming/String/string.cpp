@@ -43,5 +43,14 @@ char string_maximumOccuringChar(char *str){
 
 void string_allPermutationsOf(char *str){
 
+    printf("%d",strlen(str));
+    for (int i =0; i< strlen(str)-1 ; i++) {
+        for (int j = i; j< strlen(str); j++) {
+            
+            printf("%s",str);
+            printf("\n");
+        }
+    }
+    
 }
 

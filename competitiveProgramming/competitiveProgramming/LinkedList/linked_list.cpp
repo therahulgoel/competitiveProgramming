@@ -150,5 +150,10 @@ int linkedlist_getNthNode(struct list_node *base,int n){
     return base->data;
 }
 
+int linkedlist_middleIs(struct list_node *base){
+
+    return 0;
+}
+
 
 

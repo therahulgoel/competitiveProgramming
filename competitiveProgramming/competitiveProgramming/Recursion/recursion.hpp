@@ -10,6 +10,8 @@
 #define recursion_hpp
 
 #include <stdio.h>
+#include <string>
+#include <stdlib.h>
 
 #endif /* recursion_hpp */
 
@@ -38,5 +40,5 @@ int recursion_fibonacciNthTerm(int number);
 void recursion_getAllWordsFromSentence(char *str,char *ptr);
 
 //9. Print all permutations of given string
-void recursion_printPermutationsOf(char *str);
+void recursion_printPermutationsOf(char *str,int i,int j);
 

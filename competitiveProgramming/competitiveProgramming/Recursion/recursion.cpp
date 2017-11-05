@@ -91,7 +91,24 @@ void getWordAndAddItToArray(char *str,int length){
         str = str + 1;
         index++;
     }
-    
+}
+
+void recursion_printPermutationsOf(char *str,int i, int j){
+
+    if (i == (strlen(str) - 1)){
+        return;
+    }
+    else{
+        if (j == (strlen(str) - 1)){
+            
+            
+            i = i + 1;
+            j = i;
+            recursion_printPermutationsOf(str, i ,j +1);
+        }else{
+            recursion_printPermutationsOf(str, i ,j +1);
+        }
+    }
 }
 
 
