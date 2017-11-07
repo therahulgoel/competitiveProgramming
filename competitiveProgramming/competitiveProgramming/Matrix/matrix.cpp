@@ -8,11 +8,3 @@
 
 #include "matrix.hpp"
 
-
-int arr1[3][3] = {{1,2,3},{1,2,3},{1,2,3}};
-int arr2[3][3] = {{1,2,3},{1,2,3},{1,2,3}};
-
-
-void matrix_print(){
-
-}
