@@ -9,7 +9,6 @@
 #include "recursion.hpp"
 
 //As Its not suggestable to return local variable outside the function So use this array in case you need to return Array or list of elements
-static int *arrayTmp;
 
 void getWordAndAddItToArray(char *str,int length);
 
