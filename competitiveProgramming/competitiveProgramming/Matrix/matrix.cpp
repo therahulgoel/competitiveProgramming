@@ -17,17 +17,20 @@ void matrix_test2DCreate(){
     }
 }
 
-int matrix_searchInRowAndColumnWiseSorted(int row, int col, int mat[][col],int element){
+int matrix_searchInRowAndColumnWiseSorted(int element,int mat[row][col]){
+    int r = row - 1;
+    int c = col - 1;
+    
     int found = 0;
     int index = 0;
     while (index < (row + col)) {
-        if (element < mat[row][col]){
-            col --;
+        if (element < mat[r][c]){
+            c --;
         }
-        if (element > mat[row][col]){
-            row++;
+        if (element > mat[r][c]){
+            r++;
         }
-        if (element == mat[row][col]){
+        if (element == mat[r][c]){
             found  = 1;
             break;
         }
@@ -38,7 +41,7 @@ int matrix_searchInRowAndColumnWiseSorted(int row, int col, int mat[][col],int e
     return found;
 }
 
-void matrix_2Dprint(int row, int col, int mat[][col]){
+void matrix_2Dprint(int mat[row][col]){
     for (int i =0; i<row; i++) {
         for (int j =0; j<col; j++) {
             printf("%d ",matrixTest[i][j]);

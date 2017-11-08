@@ -14,15 +14,18 @@ static int matrixTest[][3] =  {{1,2,3},
     {4,5,6},
     {7,8,9}};
 
+#define row 3
+#define col 3
+
 
 //1. To Print given 2D matrix of size 3*3 Time - O(n)
-void matrix_2Dprint(int row, int col, int mat[][col]);
+void matrix_2Dprint(int mat[row][col]);
 
 //2. Search given element x, in a row wise and column wise sorted matrix of size n*n - Time- O(n)
-int matrix_searchInRowAndColumnWiseSorted(int row, int col, int mat[][col],int element);
+int matrix_searchInRowAndColumnWiseSorted(int element, int mat[row][col]);
 //3. Rotate given n*n matrix by 90 degree
-void matrix_2DRotate90Degree(int row, int col);
+void matrix_2DRotate90Degree();
 
 //4. Print given matrix in spiral form
-void matrix_spiralForm(int row, int col, int mat[][col]);
+void matrix_spiralForm(int mat[][col]);
 
