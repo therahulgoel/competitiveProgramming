@@ -18,14 +18,14 @@ void matrix_test2DCreate(){
 }
 
 int matrix_searchInRowAndColumnWiseSorted(int element,int mat[row][col]){
-    int r = row - 1;
+    int r = 0;
     int c = col - 1;
     
     int found = 0;
     int index = 0;
-    while (index < (row + col)) {
+    while (index < (row + col - 1)) {
         if (element < mat[r][c]){
-            c --;
+            c--;
         }
         if (element > mat[r][c]){
             r++;
