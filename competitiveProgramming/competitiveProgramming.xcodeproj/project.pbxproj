@@ -12,7 +12,6 @@
 		1382AE911F28EEB700C2EC88 /* array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE7D1F28EEB700C2EC88 /* array.cpp */; };
 		1382AE921F28EEB700C2EC88 /* basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE801F28EEB700C2EC88 /* basic.cpp */; };
 		1382AE931F28EEB700C2EC88 /* tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE831F28EEB700C2EC88 /* tree.cpp */; };
-		1382AE941F28EEB700C2EC88 /* tree_utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE851F28EEB700C2EC88 /* tree_utility.cpp */; };
 		1382AE951F28EEB700C2EC88 /* bst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE881F28EEB700C2EC88 /* bst.cpp */; };
 		1382AE961F28EEB700C2EC88 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE8C1F28EEB700C2EC88 /* graph.cpp */; };
 		1382AE971F28EEB700C2EC88 /* linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1382AE8F1F28EEB700C2EC88 /* linked_list.cpp */; };
@@ -51,8 +50,6 @@
 		1382AE811F28EEB700C2EC88 /* basic.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = basic.hpp; sourceTree = "<group>"; };
 		1382AE831F28EEB700C2EC88 /* tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
 		1382AE841F28EEB700C2EC88 /* tree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tree.hpp; sourceTree = "<group>"; };
-		1382AE851F28EEB700C2EC88 /* tree_utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tree_utility.cpp; sourceTree = "<group>"; };
-		1382AE861F28EEB700C2EC88 /* tree_utility.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = tree_utility.hpp; sourceTree = "<group>"; };
 		1382AE881F28EEB700C2EC88 /* bst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bst.cpp; sourceTree = "<group>"; };
 		1382AE891F28EEB700C2EC88 /* bst.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bst.hpp; sourceTree = "<group>"; };
 		1382AE8A1F28EEB700C2EC88 /* files_included.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = files_included.h; sourceTree = "<group>"; };
@@ -165,10 +162,8 @@
 		1382AE821F28EEB700C2EC88 /* BinaryTree */ = {
 			isa = PBXGroup;
 			children = (
-				1382AE831F28EEB700C2EC88 /* tree.cpp */,
 				1382AE841F28EEB700C2EC88 /* tree.hpp */,
-				1382AE851F28EEB700C2EC88 /* tree_utility.cpp */,
-				1382AE861F28EEB700C2EC88 /* tree_utility.hpp */,
+				1382AE831F28EEB700C2EC88 /* tree.cpp */,
 			);
 			path = BinaryTree;
 			sourceTree = "<group>";
@@ -194,8 +189,8 @@
 		1382AE8E1F28EEB700C2EC88 /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
-				1382AE8F1F28EEB700C2EC88 /* linked_list.cpp */,
 				1382AE901F28EEB700C2EC88 /* linked_list.hpp */,
+				1382AE8F1F28EEB700C2EC88 /* linked_list.cpp */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -351,7 +346,6 @@
 				1382AEB91F28F14300C2EC88 /* patternPrint.cpp in Sources */,
 				1382AE921F28EEB700C2EC88 /* basic.cpp in Sources */,
 				1382AEBD1F28F14300C2EC88 /* sorting.cpp in Sources */,
-				1382AE941F28EEB700C2EC88 /* tree_utility.cpp in Sources */,
 				1382AEB61F28F14300C2EC88 /* heap.cpp in Sources */,
 				1382AE971F28EEB700C2EC88 /* linked_list.cpp in Sources */,
 				1382AEBE1F28F14300C2EC88 /* stack.cpp in Sources */,
