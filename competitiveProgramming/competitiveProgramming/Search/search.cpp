@@ -20,6 +20,13 @@ int search_linear(int arr[],int e, int size){
     return position;
 }
 
-void search_binary(int arr[], int e, int size){
-    
+bool search_binary(int arr[], int e, int size){
+	int lo = 0, hi = size-1;
+	while(l < r){
+		int mid = (lo + hi)/2;
+		if(arr[mid] == e) return true;
+		if(arr[mid] > e) hi = mid - 1;
+		else lo = mid + 1;
+	}
+	return arr[mid] == e;
 }
